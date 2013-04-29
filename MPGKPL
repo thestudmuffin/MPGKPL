@@ -1,0 +1,38 @@
+<!--Fuel Efficiency Converter
+  Created by Ashleigh Cotting, Andy Hoy, and Jimmy Merrick
+	ISAT 252
+	Begun: 23 Jan 2013 
+-->	
+<!DOCTYPE html>
+<html>
+<title>
+Fuel Efficiency Converter
+</title>
+<script type="text/javascript">
+
+function convert()
+{
+	var result =0;
+	var milespergallon =prompt("Please enter a number to convert from miles per gallon to kilometers per liter", 0); 
+	
+	result = milespergallon * .42505303;
+	
+	
+	alert(milespergallon + " MPG = " + result + " KPL ");
+}
+
+</script>
+	<h1>Convert from Miles per Gallon to Kilometers Per Liter</h1>
+		<body>
+		<p><h2>To convert:</h2></p>
+			<ol>Press the "Convert" button and input your value for miles per gallon.</ol>
+			<ol>Hit "Okay."</ol>
+			<form>
+			<input type="button" onclick="convert();" value="Convert">
+			</form>
+		
+		
+		</body>
+</html>
+			
+
